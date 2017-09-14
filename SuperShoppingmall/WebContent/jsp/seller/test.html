@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>
+            RunJS 演示代码
+        </title>
+        <style>
+            #content{
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                width:200px;
+            }
+        </style>
+        <script>
+            onload = function(){
+                content.onmouseover = function(){
+                    this.title = this.innerHTML;
+                }
+            }
+        </script>
+  </head>
+    <body>
+    <div id='content'>
+            js 文字超出长度用省略号代替,鼠标悬停并以悬浮框显示
+            js 文字超出长度用省略号代替,鼠标悬停并以悬浮框显示
+            js 文字超出长度用省略号代替,鼠标悬停并以悬浮框显示
+            js 文字超出长度用省略号代替,鼠标悬停并以悬浮框显示
+  </div>
+  </body>
+</html>
